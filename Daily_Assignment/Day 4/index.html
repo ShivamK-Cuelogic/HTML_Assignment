@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="This is fourth day assignement of html">
+        <meta name="author" content="Shivam">
+        <meta charset="UTF-8">
+        <title>HTML 5</title>
+        
+    </head>
+    <body>
+        <div style="padding:20px;">
+            <h2>Canvas graphics element</h2>
+            <canvas id="mycanvas" height="100px" width="200px" style="border:1px solid black;">
+
+            </canvas>
+        </div>
+        <script>
+                var c = document.getElementById("mycanvas");
+                var ctx = c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(95,50,40,0,2*Math.PI);
+                ctx.fillStyle='#0000ff';
+                ctx.fillRect(0,0,90,100);
+                ctx.stroke();
+        </script>
+        <div style="padding:25px;">
+            <h2>Video</h2>
+            <video width="400px" width="300px" controls style="border:2px solid black">
+                 <source src="http://imgs.g4estatic.com/html/html4-vs-html5/sample.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div style="padding:25px">
+            <h2>Youtube Video</h2>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/XGSy3_Czz8k">
+                </iframe>
+        </div>
+    </body>
+</html>

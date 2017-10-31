@@ -1,0 +1,26 @@
+#fixedLayout{
+position: fixed;
+height: 200px;
+width:300px;
+float:right;
+clear: both;
+margin-left: 25px;
+background-color: yellow
+}
+#relativeLayout{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    margin-left: 25px;
+    top: 0px;
+    background-color: green;
+}
+#absoluteLayout{
+    position: absolute;
+    top:20px;
+    left: 350px;
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+
+}

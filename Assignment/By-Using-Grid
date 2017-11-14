@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Blog</title>
+        <style>
+        .header{
+            background-color: #7a7a7a;
+            color: white;
+            font-size: 2em;
+            padding: 1%;
+        }
+        .heading{
+            color:#7a7a7a;
+            font-size: 1.7em;
+            padding:1%;
+        }
+        .contents{
+            display: grid;
+            grid-template-columns: 20% 65%;
+            grid-gap:2%;
+        }
+        ul{
+            list-style: none;
+        }
+        .left-side-bar{
+            background: #7a7a7a;
+            color: white;
+            font-size: 1.5em;
+            padding:10px;
+        }
+        .right-content{
+            background-color: #c1c1c1;
+            padding:30px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 48% 48%;
+            grid-gap: 4%;
+            grid-auto-rows: 300px;
+        }
+        .grid div{
+            background-color: #7a7a7a;
+            color: white;
+            text-align: center;
+            font-size:3em;
+            padding-top: 25%;
+            margin-top: 5%;
+        }
+        .grid div:nth-child(odd){
+            
+        }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            Blog Header
+        </header>
+        <div class="heading">
+            Blog Heading
+        </div>
+        <div class="contents">
+            <div class="left-side-bar">
+              <center> Left navigation</center> 
+                <ul>
+                    <li>sub nav 1</li>
+                    <li>sub nav 2</li>
+                    <li>sub nav 3</li>
+                    <li>sub nav 4</li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <div class="grid">
+                    <div>Thumnail boxes</div>
+                    <div>Thumnail boxes</div>
+                    <div>Thumnail boxes</div>
+                    <div>Thumnail boxes</div>
+                    <div>Thumnail boxes</div>
+                    <div>Thumnail boxes</div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
